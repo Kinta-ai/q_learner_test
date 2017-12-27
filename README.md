@@ -22,6 +22,6 @@
 
   best action is argmin, not argmax (I'm not sure if this is actually the case right now)
   
-  after 5000 episodes the loss explodes
+  when testing on a hpc node (xeon + tesla p100), after 5000 episodes the loss explodes into 10e5-10e6 range
   
   still need to convert into a script
